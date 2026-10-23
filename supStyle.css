@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+header {
+    background-color: slategray;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+header h1 {
+    text-align: center;
+}
+
+header img.left {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 0px;
+}
+
+header img.right {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.list {
+    background-color: lightcoral;
+    border: 5px solid darkred;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    left: 20px;
+}
+
+.list h2 {
+    text-align: center;
+    margin: 5px;
+    text-decoration: underline;
+}
+
+.list ul {
+    list-style: none;
+    margin-top: 0px;
+}
+
+.list li {
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.listEditor {
+    background-color: lightgoldenrodyellow;
+    border: 5px solid darkgoldenrod;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 350px;
+}
+
+.listEditor h2 {
+    text-align: center;
+    margin: 5px;
+    text-decoration: underline;
+}
+
+.listEditor p {
+    font-size: 20px;
+    margin-top: 6px;
+    position: relative;
+    left: 30px;
+}
+
+.listEditor b {
+    font-size: 25px;
+}
+
+.listEditor input, button {
+    position: relative;
+    left: 40px;
+}
+
+p.displayedInfo {
+    font-size: 15px;
+    margin-top: 6px;
+    position: relative;
+    left: 10px;
+}
+
+.characterImage {
+    border: 5px solid darkcyan;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 680px;
+}
+
+.characterImage img {
+    width: auto;
+    height: fit-content;
+    overflow: hidden;
+}

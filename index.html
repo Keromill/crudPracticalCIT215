@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midterm Practical - CRUD Application</title>
+
+    <script src="crudScript.js" defer></script>
+    <link rel="stylesheet" href="supStyle.css"/>
+</head>
+<body>
+    <header>
+        <img class="left" src="images/Supernatural.png" alt="Supernatural logo"/>
+        <h1>Supernatural Characters</h1>
+        <img class="right" src="images/Supernatural.png" alt="Supernatural logo"/>
+    </header>
+
+    <div class="list">
+        <h2><em>Character List</em></h2>
+    </div>
+
+    <div class="listEditor">
+        <h2><em>Please Select An Option:</em></h2>
+        <p><b><u>C</u></b>reate a character</p>
+        <p><b><u>R</u></b>ead the details of a character</p>
+        <p><b><u>U</u></b>pdate a character</p>
+        <P><b><u>D</u></b>elete a character</P>
+        <input type="text" id="editInput" name="editInput" maxlength="1" size="3"></input>
+        <button onclick="act()">Click to perform action!</button>
+        <p class="displayedInfo"></p>
+    </div>
+
+    <img class="characterImage"></img>
+</body>
+</html>
